@@ -1,6 +1,11 @@
 let nomes = []; // Cria uma matriz vazia chamada "nomes" para armazenar os nomes dos amigos.
 let saida = document.getElementById("resultado"); // Obtém o elemento HTML com o id "resultado" e o armazena na variável "resultado".
 
+// Adicona o cursor no campo de entrada dos nomes ao abrir o site
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('amigo').focus();
+});
+
 function adicionarAmigo(){ // Define a função "adicionarAmigo".
     let digiteUmNome = document.getElementById("amigo").value; // Obtém o valor do campo de entrada com id "amigo" e o armazena na variável "digiteUmNome".
     if (digiteUmNome == ""){ // Verifica se o campo de entrada está vazio.
