@@ -19,3 +19,8 @@ function adicionarAmigo(){ // Define a função "adicionarAmigo".
     saida.innerHTML = listaDeNomes; // Atualiza o conteúdo do elemento "resultado" com a string "listaDeNomes".
 }
 
+function reiniciar() { // Define a função "reiniciar".
+    document.getElementById("amigo").value = ""; // Limpa o campo de entrada com id "amigo".
+    saida.innerHTML = ""; // Limpa o conteúdo do elemento "resultado".
+    nomes = []; // Redefine a matriz "nomes" para uma matriz vazia.
+}
