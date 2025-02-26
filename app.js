@@ -17,7 +17,9 @@ function adicionarAmigo(){ // Define a função "adicionarAmigo".
     }
     listaDeNomes += "</ul>"; // Adiciona o fechamento da lista não ordenada à string "listaDeNomes".
     saida.innerHTML = listaDeNomes; // Atualiza o conteúdo do elemento "resultado" com a string "listaDeNomes".
+    document.getElementById("amigo").focus(); // Coloca o cursor na caixa de entrada de dados
 }
+
 
 function sortearAmigo() { // Define a função "sortearAmigo".
     if (nomes.length < 2){ // Verifica se a matriz "nomes" contém menos de 2 elementos.
@@ -29,9 +31,9 @@ function sortearAmigo() { // Define a função "sortearAmigo".
     }
 }
 
-
 function reiniciar() { // Define a função "reiniciar".
     document.getElementById("amigo").value = ""; // Limpa o campo de entrada com id "amigo".
     saida.innerHTML = ""; // Limpa o conteúdo do elemento "resultado".
     nomes = []; // Redefine a matriz "nomes" para uma matriz vazia.
+    
 }
