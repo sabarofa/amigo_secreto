@@ -11,6 +11,7 @@ function adicionarAmigo(){ // Define a função "adicionarAmigo".
     if (digiteUmNome == ""){ // Verifica se o campo de entrada está vazio.
         alert ("O campo está vazio. Digite um nome para adicionar."); // Exibe um alerta se o campo estiver vazio.
         return; // Encerra a função se o campo estiver vazio.
+        
     } 
 
     nomes.push(digiteUmNome); // Adiciona o nome digitado à matriz "nomes".
@@ -29,6 +30,7 @@ function adicionarAmigo(){ // Define a função "adicionarAmigo".
 function sortearAmigo() { // Define a função "sortearAmigo".
     if (nomes.length < 2){ // Verifica se a matriz "nomes" contém menos de 2 elementos.
         saida.innerHTML += `Digite pelo menos 2 nomes.`; // Se tiver menos de 2 nomes, adiciona esta mensagem ao conteúdo do elemento "resultado".
+        document.getElementById('amigo').focus();
     } else { // Se a matriz "nomes" contém 2 ou mais elementos...
         let aleatorio = Math.floor(Math.random() * nomes.length); // Gera um índice aleatório baseado no comprimento da matriz "nomes".
         let nomeSorteado = nomes[aleatorio]; // Seleciona o nome correspondente ao índice aleatório.
