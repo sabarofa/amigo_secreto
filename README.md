@@ -22,15 +22,16 @@ Sorteio aleatório: Ao clicar no botão "Sortear Amigo", um nome da lista será 
    - Se houver pelo menos dois amigos na lista, um nome será sorteado e exibido na tela.
 3. **Reniciar Sorteio**
     - Ao clicar neste botão, os dados serão apagados e um nova entrada de dados e aguardada pelo site.
-## Executando o projeto
-> Você poderá estar acessando o projeto na web atraves do link:
-  https://challenge-amigo-secreto-olive.vercel.app/
 
-1. Clone o repositório:
+## Executando o projeto
+> 1. Você poderá estar acessando o projeto na web atraves do link:
+  https://sabarofa.github.io/amigo_secreto/
+
+2. Ou Clonando o repositório:
 
    git clone https://github.com/sabarofa/amigo_secreto
     ```
-2. Navegue até o diretório do projeto e execute index.html
+3. Navegue até o diretório do projeto e execute index.html
 ## Autor
 Adriano Morais 
 
