@@ -35,5 +35,6 @@ function reiniciar() { // Define a função "reiniciar".
     document.getElementById("amigo").value = ""; // Limpa o campo de entrada com id "amigo".
     saida.innerHTML = ""; // Limpa o conteúdo do elemento "resultado".
     nomes = []; // Redefine a matriz "nomes" para uma matriz vazia.
+    document.getElementById("amigo").focus(); // Coloca o cursor na caixa de entrada de dados
     
 }
