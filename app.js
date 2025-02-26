@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function adicionarAmigo(){ // Define a função "adicionarAmigo".
     let digiteUmNome = document.getElementById("amigo").value; // Obtém o valor do campo de entrada com id "amigo" e o armazena na variável "digiteUmNome".
     if (digiteUmNome == ""){ // Verifica se o campo de entrada está vazio.
-        alert ("O campo está vazio. Digite um nome para começar."); // Exibe um alerta se o campo estiver vazio.
+        alert ("O campo está vazio. Digite um nome para adicionar."); // Exibe um alerta se o campo estiver vazio.
         return; // Encerra a função se o campo estiver vazio.
     } 
 
