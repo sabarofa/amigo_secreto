@@ -32,7 +32,7 @@ function sortearAmigo() { // Define a função "sortearAmigo".
     } else { // Se a matriz "nomes" contém 2 ou mais elementos...
         let aleatorio = Math.floor(Math.random() * nomes.length); // Gera um índice aleatório baseado no comprimento da matriz "nomes".
         let nomeSorteado = nomes[aleatorio]; // Seleciona o nome correspondente ao índice aleatório.
-        saida.innerHTML = `🎉🎉 Parabéns!!  O Nome Sorteado foi: <strong>${nomeSorteado}</strong>`; // Atualiza o conteúdo do elemento "resultado" com o nome sorteado.
+        saida.innerHTML = `Parabéns !!  O Nome Sorteado foi: <strong>${nomeSorteado}</strong>`; // Atualiza o conteúdo do elemento "resultado" com o nome sorteado.
     }
 }
 
